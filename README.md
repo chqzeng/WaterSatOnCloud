@@ -1,21 +1,22 @@
 # WaterSatOnCloud
-Water specified Satellite Imagery processing on Cloud Platforms
+Water specific Satellite Imagery processing on Cloud Platforms
 
-this project includes tools we developed when attending a [Algal Bloom Contest]()
+This project includes tools we developed when attending a [Algal Bloom Contest]()
 
 ## Introduction
-this subfolder provides tools needed to collect Sentinel-2 MSI (S2MSI) and Landsat 8/9 (LST8) matchup with in situ water samples, to build models of small water bodies Rrs ---> [Chl]
+This repository provides tools for collecting Sentinel-2 MSI (S2MSI) and Landsat 8/9 (LST8) matchups with in situ water samples and building bio-optical models that derive water properties, such as [Chl], of small water bodies through remote sensing.
+
 
 ## Tools
-here are a list of tools that provided in this package.
+Here are a list of tools that provided in this package.
 
--	GEE S2 satellite data extraction (Level 1 and level 2), with user defined location and time (lat, lon, datetime field in a .csv)
--	GEE LST8 satellite data extraction (level 1 and level 2) ,with user defined location and time (lat, lon, datetime field in a .csv)
--	Climate and meteorological data extraction, with user defined location and time   
--	Machine learning training models (RF, lightGBM, TENSORFLOW) , category classification or numeric regression
--	Py6S for Raileigh Correction of level-1 data.
--	[GLORIA](https://www.nature.com/articles/s41597-023-01973-y) dataset for training example
--	 ...
+1. GEE S2 satellite data extraction (Level 1 and level 2), with user-defined location and time (lat, lon, datetime field in a .csv)
+2. GEE LST8 satellite data extraction (level 1 and level 2), with user-defined location and time (lat, lon, datetime field in a .csv)
+3. Climate and meteorological data extraction, with user-defined location and time   
+4. Machine learning training models (RF, lightGBM, TENSORFLOW) , category classification or numeric regression
+5. Py6S for Rayleigh Correction of level-1 data.
+6. [GLORIA](https://www.nature.com/articles/s41597-023-01973-y) dataset for training example
+7. ...
 
 ## How to use
 
