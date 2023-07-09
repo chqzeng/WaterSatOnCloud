@@ -1,7 +1,7 @@
 # WaterSatOnCloud
 Water specific Satellite Imagery processing on Cloud Platforms
 
-This project includes tools we developed when attending a [Algal Bloom Contest]()
+This project includes tools we developed when attending the [Harmful Algal Bloom Detection Challenge](https://www.drivendata.org/competitions/143/tick-tick-bloom/)
 
 ## Introduction
 This repository provides tools for collecting Sentinel-2 MSI (S2MSI) and Landsat 8/9 (LST8) matchups with in situ water samples and building bio-optical models that derive water properties, such as [Chl], of small water bodies through remote sensing.
