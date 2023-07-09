@@ -17,7 +17,7 @@ Here are a list of tools that provided in this package.
 3. Climate and meteorological data extraction, with user-defined locations and time   
 4. Machine learning training models (RF, lightGBM, TENSORFLOW) , category classification or numeric regression
 5. Py6S for Rayleigh Correction of level-1 data.
-6. <a href="https://www.nature.com/articles/s41597-023-01973-y" target="_blank"> GLORIA </a> 
+6. <a href="https://www.nature.com/articles/s41597-023-01973-y" target="_blank"> GLORIA </a> dataset for training example
 7. ...
 
 ## How to use
