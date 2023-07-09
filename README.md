@@ -1,7 +1,9 @@
 # WaterSatOnCloud
 Water specific Satellite Imagery processing on Cloud Platforms
 
-This project includes tools we developed when attending the [Harmful Algal Bloom Detection Challenge](https://www.drivendata.org/competitions/143/tick-tick-bloom/)
+This project includes tools we developed when attending the <a href="https://www.drivendata.org/competitions/143/tick-tick-bloom/" target="_blank">Harmful Algal Bloom Detection Challenge</a> 
+
+
 
 ## Introduction
 This repository provides tools for collecting Sentinel-2 MSI (S2MSI) and Landsat 8/9 (LST8) matchups with in situ water samples and building bio-optical models that derive water properties, such as [Chl], of small water bodies through remote sensing.
@@ -15,7 +17,7 @@ Here are a list of tools that provided in this package.
 3. Climate and meteorological data extraction, with user-defined locations and time   
 4. Machine learning training models (RF, lightGBM, TENSORFLOW) , category classification or numeric regression
 5. Py6S for Rayleigh Correction of level-1 data.
-6. [GLORIA](https://www.nature.com/articles/s41597-023-01973-y) dataset for training example
+6. <a href="https://www.nature.com/articles/s41597-023-01973-y" target="_blank"> GLORIA </a> 
 7. ...
 
 ## How to use
