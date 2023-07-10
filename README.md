@@ -12,7 +12,7 @@ Here are a list of tools that provided in this package.
 
 1. GEE S2 satellite data extraction (Level 1 and level 2), with user-defined locations and time (lat, lon, datetime field in a .csv)
 2. GEE LST8 satellite data extraction (level 1 and level 2), with user-defined locations and time (lat, lon, datetime field in a .csv)
-3. Climate and meteorological data extraction, with user-defined locations and time   
+3. HRRR climate and meteorological data extraction, with user-defined locations and time, limited to the US   
 4. Machine learning training models (RF, lightGBM, TENSORFLOW) , category classification or numeric regression
 5. Py6S for Rayleigh Correction of level-1 data.
 6. [GLORIA](https://www.nature.com/articles/s41597-023-01973-y) dataset for training example
